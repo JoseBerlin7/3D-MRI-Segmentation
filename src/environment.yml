@@ -1,0 +1,11 @@
+name: brats-swinunetr
+dependencies:
+  - python=3.10
+  - pip:
+      - torch
+      - torchvision
+      - monai
+      - tensorboard
+      - nibabel
+      - numpy
+      - torchmetrics
