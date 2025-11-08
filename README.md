@@ -4,9 +4,9 @@
         ├─ data/ (raw NIfTI per subject)
         ├─ notebooks/ (exploration + visualization)
         ├─ model/
-        │  ├─ data.py (dataset + transforms)
-        │  ├─ model.py
-        │  └─ utils.py (metrics, visualization)
-        ├─ train.py
-        ├─ results/ (checkpoints + predictions)
+        │  ├─ data_loaders.py (dataset + transforms)
+        │  ├─ model_code.py
+        │  ├─ train.py
+        │  ├─ model_code.py
+        ├─ weights/ (checkpoints + predictions)
         └─ README.md
